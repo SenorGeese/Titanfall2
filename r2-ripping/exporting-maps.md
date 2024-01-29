@@ -4,6 +4,10 @@ description: Extract the 3D map model from the Titanfall 2 VPK's
 
 # Exporting Maps
 
+{% hint style="success" %}
+This is an old way of exporting Titanfall maps. While it does work, sometimes needing edits to the script for some people. The newer and recommended way to export Titanfall maps is with the Blender add-on here: [https://github.com/snake-biscuits/io\_import\_rbsp](https://github.com/snake-biscuits/io\_import\_rbsp) .
+{% endhint %}
+
 ### Tools
 
 You will need the **Titanfall Map Exporter** python script and the **Titanfall VPK Tool** from the [Modding Tools](../intro/duction/tools/) page. If you don't have python installed, you will also need that.
