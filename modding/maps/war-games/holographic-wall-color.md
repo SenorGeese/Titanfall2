@@ -39,7 +39,7 @@ Following bulleted list contains names of the files in this location and their s
 * `holo_map_grid_light_blue.vmt` blue arrows
 * `holo_map_grid_light_blue_shootable.vmt` blue holographic walls
 * `holo_map_grid_mip0.vtf` base texture used by holographic walls
-* `holo_map_grid_orange.vmt` orange arrows&#x20;
+* `holo_map_grid_orange.vmt` orange arrows
 * `holo_map_grid_orange_shootable.vmt` orange holographic walls and outer holographic walls
 * `holo_map_grid_red_dense.vmt` holographic walls of the pit
 
@@ -55,15 +55,15 @@ These material files leave quite lot of possibilities, you could replace texture
 
 ### Examples
 
-![As mentioned in the bulleted list these are orange arrows with "$color2" changed to "\[3 0 1.65\]"](../../../.gitbook/assets/titanfall-2-screenshot-2021.02.05-16.18.02.39.png)
+![As mentioned in the bulleted list these are orange arrows with "$color2" changed to "\[3 0 1.65\]"](<../../../.gitbook/assets/Titanfall 2 Screenshot 2021.02.05 - 16.18.02.39.png>)
 
-![As mentioned in the bulleted list these are blue arrows with "$color2" changed to "\[0 1.5 3\]"](../../../.gitbook/assets/titanfall-2-screenshot-2021.02.05-16.18.33.95.png)
+![As mentioned in the bulleted list these are blue arrows with "$color2" changed to "\[0 1.5 3\]"](<../../../.gitbook/assets/Titanfall 2 Screenshot 2021.02.05 - 16.18.33.95.png>)
 
-![As mentioned in the bulleted list these are orange holographic walls with "$color2" changed to "\[4 0 0\]" (red) and blue holographic walls with "$color2" changed to "\[0 4 0\]" (green)](../../../.gitbook/assets/titanfall-2-screenshot-2021.02.05-16.17.32.05.png)
+![As mentioned in the bulleted list these are orange holographic walls with "$color2" changed to "\[4 0 0\]" (red) and blue holographic walls with "$color2" changed to "\[0 4 0\]" (green)](<../../../.gitbook/assets/Titanfall 2 Screenshot 2021.02.05 - 16.17.32.05.png>)
 
-![As mentioned in the bulleted list orange holographic walls use the same .vmt as outer holographic walls these are outer holographic walls](../../../.gitbook/assets/titanfall-2-screenshot-2021.02.05-16.58.39.64.png)
+![As mentioned in the bulleted list orange holographic walls use the same .vmt as outer holographic walls these are outer holographic walls](<../../../.gitbook/assets/Titanfall 2 Screenshot 2021.02.05 - 16.58.39.64.png>)
 
-![As mentioned in the bulleted list these are holographic walls of the pit with "$color2" changed to "\[4 4 0\]" (yellow)](../../../.gitbook/assets/titanfall-2-screenshot-2021.02.05-17.16.37.14.png)
+![As mentioned in the bulleted list these are holographic walls of the pit with "$color2" changed to "\[4 4 0\]" (yellow)](<../../../.gitbook/assets/Titanfall 2 Screenshot 2021.02.05 - 17.16.37.14.png>)
 
 {% embed url="https://gfycat.com/thriftyfaintkronosaurus" %}
 
@@ -75,7 +75,7 @@ These material files leave quite lot of possibilities, you could replace texture
 
 ![made by frog#1626](https://raw.githubusercontent.com/Wanty5883/Titanfall2/master/picture/WarGames%20-%20Holographic%20wall%20color3.png)
 
-![Clear walls](../../../.gitbook/assets/titanfall-2-screenshot-2021.02.16-17.26.26.82.png)
+![Clear walls](<../../../.gitbook/assets/Titanfall 2 Screenshot 2021.02.16 - 17.26.26.82.png>)
 
 ## Repacking
 

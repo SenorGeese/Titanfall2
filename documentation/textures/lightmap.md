@@ -15,7 +15,7 @@ The lightmap scale of a face defines the resolution of its lightmap. The default
 
 Lowering scale will make lightmap shadows sharper, but leads to larger map file size, slightly slower rendering and exponentially slower compiles (that at very low scales start to eat up shocking amounts of system memory).
 
-![Lightmap scales of 4, 16, and 64.](../../.gitbook/assets/intlight\_lmap64.jpg)
+![Lightmap scales of 4, 16, and 64.](../../.gitbook/assets/Intlight\_lmap64.jpg)
 
 When generating lightmaps, VRAD does not create [penumbras](https://en.wikipedia.org/wiki/Umbra,\_penumbra\_and\_antumbra#Umbra). The effect can be done by placing multiple lights near each other to simulate a non-point source of light, and/or increasing lightmap scale (which is why the relatively large value of 16 is the default).
 
@@ -27,15 +27,15 @@ When generating lightmaps, VRAD does not create [penumbras](https://en.wikipedia
 **Tip:** [Fog ](https://developer.valvesoftware.com/wiki/Dust,\_Fog,\_%26\_Smoke)in reality increases atmospheric scattering, making all shadows a lot more diffuse. Look at [light\_environment](https://developer.valvesoftware.com/wiki/Light\_environment)'s sun spread angle.
 {% endhint %}
 
-![Scales and effects of light textures.](../../.gitbook/assets/lightmap.png)
+![Scales and effects of light textures.](../../.gitbook/assets/Lightmap.png)
 
 ## Optimization
 
-Lightmap optimization can be done by eye with the aid of a compiled map: faces with low lighting contrast can have their scales increased, and vice versa faces with high contrast should be considered for lower scale. Just beware of setting a face's scale so high that it ends up a 'blop' of light that doesn't blend with its neighbors (use `mat_fullbright 2`to spot this).&#x20;
+Lightmap optimization can be done by eye with the aid of a compiled map: faces with low lighting contrast can have their scales increased, and vice versa faces with high contrast should be considered for lower scale. Just beware of setting a face's scale so high that it ends up a 'blop' of light that doesn't blend with its neighbors (use `mat_fullbright 2`to spot this).
 
 Remember to take into account the size of a face, too. Moving a very large face even one point up or down can have a huge impact. Don't be afraid to split the face up if that helps, or to drop a bit of detail from huge floor or wall faces.
 
-![Optimising lightmap scales.](../../.gitbook/assets/intlight\_lightmaps.jpg)
+![Optimising lightmap scales.](../../.gitbook/assets/Intlight\_lightmaps.jpg)
 
 ## Hammer view
 
@@ -56,7 +56,7 @@ Replaces all [albedos](https://developer.valvesoftware.com/wiki/Albedo) with a g
 Display luxels on all brush surfaces.
 
 {% hint style="info" %}
-**Note:**Distorts on displacements, this is not a bug.
+\*\*Note:\*\*Distorts on displacements, this is not a bug.
 {% endhint %}
 
 {% hint style="danger" %}
@@ -83,9 +83,8 @@ Unwraps each lightmap into a small, tessellating display in the top left of the 
 
 **To do:** Unknown. Possibly a way of flushing lightmap data between map loads?
 
-![mat\_fullbright 2](../../.gitbook/assets/mat\_fullbright\_2.jpg)
+![mat\_fullbright 2](../../.gitbook/assets/Mat\_fullbright\_2.jpg)
 
 {% hint style="info" %}
 Source: [https://developer.valvesoftware.com/wiki/Lightmap](https://developer.valvesoftware.com/wiki/Lightmap)
 {% endhint %}
-

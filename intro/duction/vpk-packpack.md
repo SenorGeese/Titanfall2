@@ -6,7 +6,7 @@ description: How to play around with VPKs without messing everything up
 
 ## How to backup & extract VPK's properly?
 
-When you extract [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)archives, you need a directory where the files will be extracted to. This folder **should not** be inside your game directory. Before we start modding, you should create a folder to keep track of your modding files. It is recommended for you to create a folder with an easy name like `Titanfall 2 modding` on your desktop or another place you can access it easily. In this example we will use the path `C:\Users\<username>\Documents`.&#x20;
+When you extract [VPK ](../../documentation/file-format/vpk-valve-pak-file.md)archives, you need a directory where the files will be extracted to. This folder **should not** be inside your game directory. Before we start modding, you should create a folder to keep track of your modding files. It is recommended for you to create a folder with an easy name like `Titanfall 2 modding` on your desktop or another place you can access it easily. In this example we will use the path `C:\Users\<username>\Documents`.
 
 ```
 C:\Users\<username>\Documents\Titanfall 2 modding
@@ -34,11 +34,11 @@ The next step uses the Titanfall VPK Tool. If you haven't done so already, downl
 
 The VPK Tool looks like this:
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (15).png>)
 
 Click on the 1st icon or press `CTRL + O`.
 
-![](../../.gitbook/assets/vpktool\_open.png)
+![](../../.gitbook/assets/vpkTool\_open.png)
 
 Navigate to your game folder and open the VPK that is mentioned in the guide you are referring to.
 
@@ -50,11 +50,11 @@ Note you can ONLY extract `_dir` version of vpks with VPK Tool.
 **Only extract VPK archive from the game directory. If you don't, make sure to have in the same folder all the subsequent VPK archive as shown in the next screenshot.**
 {% endhint %}
 
-![](../../.gitbook/assets/vpkarchive\_subsequent.png)
+![](../../.gitbook/assets/vpkArchive\_subsequent.png)
 
 Once the VPK archive is loaded in the VPK tool, extract all the files using the icon shown in the next screenshot.
 
-![](../../.gitbook/assets/vpktool\_extractall.png)
+![](../../.gitbook/assets/vpkTool\_extractAll.png)
 
 It is recommended to put each extracted [VPK](../../documentation/file-format/vpk-valve-pak-file.md) in a folder with the same the [VPK](../../documentation/file-format/vpk-valve-pak-file.md). This makes it easier to manage when you extract files from different VPK's. We will use a folder named `englishclient_mp_common`.
 
@@ -64,7 +64,7 @@ After you have extracted the VPK, open the folder where you extracted your files
 
 Open the repacking tool inside the Titanfall VPK Tool. You have 2 ways to do that, click on the 6th icon, or go to _`Tools > Repacker`_. The repacking window looks like this:
 
-![](../../.gitbook/assets/vpk-repack.png)
+![](<../../.gitbook/assets/vpk repack.png>)
 
 Once we are done with modding our crosshairs, select `Browse` next to the first box. Navigate to and select the extracted folder. Next, select `Browse` next to the second box and select your modding folder.
 

@@ -50,7 +50,7 @@ You want to add the following command in there:
 "viewmodel_offset_hip" 						"x z y"
 ```
 
-So it should look like this:&#x20;
+So it should look like this:
 
 ```
 MP_BASE
@@ -59,21 +59,21 @@ MP_BASE
 
 ### Position Values
 
-The Standard value for each of the coordinates is "0".&#x20;
+The Standard value for each of the coordinates is "0".
 
 A positive "X" value is going to move the gun to the right, a negative one to the left.
 
 A positive "Z" value is going to move the gun Forwards, a negative one backwards.
 
-A positive "Y" value is going to move the gun up, a negative one down.&#x20;
+A positive "Y" value is going to move the gun up, a negative one down.
 
 ### Examples
 
-!["viewmodel\_offset\_hip" 						"-10 0 -3"](../../.gitbook/assets/another-kraber-edit.jpg)
+!["viewmodel\_offset\_hip" 						"-10 0 -3"](<../../.gitbook/assets/another kraber edit.jpg>)
 
-!["viewmodel\_offset\_hip" 						"2 -2 -3"](../../.gitbook/assets/desktop-screenshot-2020.03.04-16.25.20.77.png)
+!["viewmodel\_offset\_hip" 						"2 -2 -3"](<../../.gitbook/assets/Desktop Screenshot 2020.03.04 - 16.25.20.77.png>)
 
-!["viewmodel\_offset\_hip" 						"-6.5 1 -4"](../../.gitbook/assets/desktop-screenshot-2020.03.04-16.47.10.40.png)
+!["viewmodel\_offset\_hip" 						"-6.5 1 -4"](<../../.gitbook/assets/Desktop Screenshot 2020.03.04 - 16.47.10.40.png>)
 
 ## Repacking
 

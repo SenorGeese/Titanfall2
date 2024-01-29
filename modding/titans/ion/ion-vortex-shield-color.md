@@ -50,9 +50,9 @@ It is not recommend you use pure color (pure pink is 255 0 255 for example) they
 
 {% embed url="https://gfycat.com/uniteddecimaleelelephant" %}
 
-![](../../../.gitbook/assets/white.png)
+![](../../../.gitbook/assets/White.png)
 
-![](../../../.gitbook/assets/yellow.png)
+![](../../../.gitbook/assets/Yellow.png)
 
 ## Repacking
 

@@ -42,7 +42,7 @@ To change color, simply change values in "<1.0, 0.36, 0.12>".
 
 ### Examples
 
-![global const HIGHLIGHT\_COLOR\_ENEMY = <0.2, 0.7, 0.9>](../../.gitbook/assets/titanfall-2-screenshot-2021.02.24-19.05.12.92.png)
+![global const HIGHLIGHT\_COLOR\_ENEMY = <0.2, 0.7, 0.9>](<../../.gitbook/assets/Titanfall 2 Screenshot 2021.02.24 - 19.05.12.92.png>)
 
 ## Repacking
 

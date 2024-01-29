@@ -92,11 +92,11 @@ These values are the crosshair itself. They can be swapped to any other ui/cross
 
 Some crosshairs are dynamic, like the charge rifle, frag grenade and a couple of other crosshairs that have animations. In some cases changing to another dynamic crosshair will work fine, in other cases it won't. As a working example: my favorite crosshair combo is using the charge rifle crosshair for the Northstar railgun. For a non working example: the frag grenade crosshair on the CAR won't work well.
 
-![](../../../.gitbook/assets/crosshair1.PNG)
+![](../../../.gitbook/assets/Crosshair1.PNG)
 
-![](../../../.gitbook/assets/crosshair2.PNG)
+![](../../../.gitbook/assets/Crosshair2.PNG)
 
-![](../../../.gitbook/assets/crosshair3.PNG)
+![](../../../.gitbook/assets/Crosshair3.PNG)
 
 Some crosshair are dynamics, like the charge rifle, frag grenade and some other crosshair which have animation. In some case changing to another dynamic crosshair will work fine, in other cases it won't. As an example my favorite one is using the charge rifle crosshair for the Northstar railgun. For an opposite example, the frag grenade crosshair to the CAR won't work well.
 

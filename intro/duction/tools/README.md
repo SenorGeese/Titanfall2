@@ -5,9 +5,9 @@ description: This is a list of third party software to use for modding Titanfall
 # Modding tools
 
 {% hint style="danger" %}
-#### Attention
+**Attention**
 
-Many of the tools below can be used to make modifications that will result in you being permanently banned from Titanfall 2 multiplayer servers. Use these tools as instructed and at your own discretion to avoid these bans.&#x20;
+Many of the tools below can be used to make modifications that will result in you being permanently banned from Titanfall 2 multiplayer servers. Use these tools as instructed and at your own discretion to avoid these bans.
 
 Neither the NoSkill community nor the contributors of this wiki are responsible for your incorrect usage of these tools to make modifications that result in you being banned or you breaking your game.
 {% endhint %}
@@ -21,7 +21,7 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 * Legion+ - [Info and Download](https://github.com/r-ex/LegionPlus)
 * RPAK2L - [Download ](https://github.com/headassbtw/rpak2l/releases/latest)(Experimental)
 * Titanfall2-SkinTool - [Download](https://github.com/zxcPandora/Titanfall2-SkinTool) (recommended)
-* Titanfall2-DDS-Tool - [Download](https://github.com/greishuhs/Titanfall2-DDS-Tool)&#x20;
+* Titanfall2-DDS-Tool - [Download](https://github.com/greishuhs/Titanfall2-DDS-Tool)
 * VPK renamer / move - [Info here](../vpk-packpack.md#vpk-rename-move-batch-script)
 * Titanfall 2 weapon renamer - [Download](https://bitbucket.org/lunderdeamon/tf2renamer)
 * MSD (Miles Sound Dumper) - [Info ](https://github.com/Lyxica/Miles-10-Sound-Dumper)& [Download](https://github.com/Lyxica/Miles-10-Sound-Dumper/releases/tag/v1.0-tf2-beta1)
@@ -35,10 +35,8 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 * taskinoz RSPNVPK - [Download](https://github.com/taskinoz/RSPNVPK)
 * Provoxin RSPNVPK - [Download](https://github.com/Provoxin/RSPNVPK-GUI)
 
-
-
-{% content-ref url="../../../how-to-start-modding/modding-introduction/modding-tools/how-to-use-rspnvpk.md" %}
-[how-to-use-rspnvpk.md](../../../how-to-start-modding/modding-introduction/modding-tools/how-to-use-rspnvpk.md)
+{% content-ref url="how-to-use-rspnvpk.md" %}
+[how-to-use-rspnvpk.md](how-to-use-rspnvpk.md)
 {% endcontent-ref %}
 
 ### VTF & VMT
@@ -92,11 +90,9 @@ Neither the NoSkill community nor the contributors of this wiki are responsible 
 * Crowbar - [Download & info](http://steamcommunity.com/groups/CrowbarTool)
 * Ninja Ripper v1.7.1 - [Download & info](https://cgig.ru/ninjaripper/)
 
-
-
 {% hint style="warning" %}
 Can't download one of those software ? Contact us! We probably have a backup.\
-_Check in the_ [_contact page_](../../../contact.md)__
+_Check in the_ [_contact page_](../../../contact.md)\_\_
 {% endhint %}
 
 {% content-ref url="../../../contact.md" %}

@@ -8,7 +8,7 @@ description: Change your FOV with the click of a button.
 
 In this guide you will have to edit a config file, otherwise known as `.cfg` file. Please be aware that you will need to create an `autoexec.cfg`file in `Origin Games\Titanfall2\r2\cfg\` if you do not have one.\
 \
-Navigate to your folder and find your `autoexec.cfg` file:&#x20;
+Navigate to your folder and find your `autoexec.cfg` file:
 
 > Origin Games\Titanfall2\r2\cfg\\
 
@@ -24,7 +24,7 @@ You can use a different name for your config file, but you will need to use a co
 
 ## Introduction
 
-Source Engine games handle magnification when aiming down sights by changing the FOV to a smaller number, which creates the effect of magnification. \
+Source Engine games handle magnification when aiming down sights by changing the FOV to a smaller number, which creates the effect of magnification.\
 This guide will teach you how to apply this effect to your hipfire view. We can achieve this by binding a key to cycle between multiple FOVs.
 
 ## Editing
@@ -64,13 +64,13 @@ This will ensure that the mouse movement is not magnified and feels the same as 
 
 {% embed url="https://gfycat.com/sizzlingunfitasiansmallclawedotter" %}
 
-![EVA-8 zoomed in (70 FOV)](../../.gitbook/assets/titanfall2\_pcjd3nma5s.jpg)
+![EVA-8 zoomed in (70 FOV)](../../.gitbook/assets/Titanfall2\_PCJD3NMa5S.jpg)
 
-![EVA-8 zoomed out (118.125 FOV)](../../.gitbook/assets/titanfall2\_gsvomi4dfk.jpg)
+![EVA-8 zoomed out (118.125 FOV)](../../.gitbook/assets/Titanfall2\_gsVomi4DFK.jpg)
 
-![HCOG Ranger zoomed in (70 FOV)](../../.gitbook/assets/titanfall2\_myp3treoft.jpg)
+![HCOG Ranger zoomed in (70 FOV)](../../.gitbook/assets/Titanfall2\_MYP3TREOFt.jpg)
 
-![HCOG Ranger zoomed out (118.125 FOV)](../../.gitbook/assets/titanfall2\_dmtalqxcbr.jpg)
+![HCOG Ranger zoomed out (118.125 FOV)](../../.gitbook/assets/Titanfall2\_dMtALqxcbr.jpg)
 
 {% hint style="info" %}
 **Resources:**

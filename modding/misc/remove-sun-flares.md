@@ -15,7 +15,7 @@ Copy these files and paste them in a backup folder somewhere else:
 * `englishclient_frontend.bsp.pak000_dir.vpk`
 * `client_frontend.bsp.pak000_000.vpk`
 
-For the next step you'll need the [Titanfall VPK Tool](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools), a program which allows you to open and repack Titanfall VPK files.&#x20;
+For the next step you'll need the [Titanfall VPK Tool](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-tools), a program which allows you to open and repack Titanfall VPK files.
 
 ## Unpacking <a href="#unpacking" id="unpacking"></a>
 
@@ -29,7 +29,7 @@ Now that these files have been backed up, navigate to your game folder and open 
 
 Sun flares are blinding and they don't really add much to the game when they are this pronounced.
 
-![](../../.gitbook/assets/with-bloom.png)
+![](<../../.gitbook/assets/with bloom.png>)
 
 It also occurs on Relic, Rise, and Exoplanet, to name a few.
 
@@ -43,7 +43,7 @@ To remove the sun flares, once you have extracted the frontend vpk, navigate to 
 
 After you repack the vpk, you should be able to see without getting blinded.
 
-![](../../.gitbook/assets/no-bloom.png)
+![](<../../.gitbook/assets/no bloom.png>)
 
 ## Repacking <a href="#repacking" id="repacking"></a>
 

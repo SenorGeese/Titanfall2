@@ -9,7 +9,7 @@ description: >-
 
 A 2D skybox is a [skybox](./) that lacks geometrical depth, consisting only of a skybox texture (without using the [sky\_camera](https://developer.valvesoftware.com/wiki/Sky\_camera) entity to display a 3D miniature model).
 
-![](../../../.gitbook/assets/skybox\_template.jpg)
+![](../../../.gitbook/assets/Skybox\_Template.jpg)
 
 ## Adding sky to a map
 
@@ -20,14 +20,14 @@ In-game, the skybox will be seen through each surface that `toolsskybox` is appl
 `toolsskybox` Brushes do not need to be box-shaped.
 
 {% hint style="info" %}
-**Note:**In [HL2](https://developer.valvesoftware.com/wiki/HL2) the default skybox has visible seams. This is not your fault. See the next section for how to change the default.
+\*\*Note:\*\*In [HL2](https://developer.valvesoftware.com/wiki/HL2) the default skybox has visible seams. This is not your fault. See the next section for how to change the default.
 {% endhint %}
 
 {% hint style="info" %}
-**Note:**You should avoid making a skybox by drawing a big hollowed out cube with the Skybox texture around your map.
+\*\*Note:\*\*You should avoid making a skybox by drawing a big hollowed out cube with the Skybox texture around your map.
 {% endhint %}
 
-****
+***
 
 ## Changing the displayed skybox
 
@@ -40,7 +40,7 @@ If you don't like the standard "sky\_day01\_01" sky, you can change it by settin
 3. In the Object Properties window, select the **Skybox Texture Name** field.
 4. Replace the sky listed there with the name of the skybox you wish to display.
 
-![](../../../.gitbook/assets/sky\_change.png)
+![](../../../.gitbook/assets/Sky\_change.png)
 
 ## Skybox Lighting
 
@@ -53,7 +53,7 @@ Skybox Lighting enters the map through every [toolsskybox](https://developer.val
 
 To make sense of it all, just make sure you have only one of each of these entities in your map, and that the **Pitch and Yaw \<angles>** are set the same for all three of them. (Pitch is equivalent to the Sun's angle of elevation from the ground, and Yaw is its compass bearing.)
 
-These lighting settings - direction, color, brightness, etc are fairly specific to the actual image used for the 2D skybox. The [Sky List](https://developer.valvesoftware.com/wiki/Sky\_List) article suggests some settings for official game skyboxes. The [`worldspawn`](https://developer.valvesoftware.com/wiki/Worldspawn) entity defines which [skybox](https://developer.valvesoftware.com/wiki/Sky\_List) to use. Also note that fog will look wrong if [`env_fog_controller`](https://developer.valvesoftware.com/wiki/Env\_fog\_controller)'s settings don't correspond to the particular skybox in use.![](https://developer.valvesoftware.com/w/images/c/cc/Note.png) **Note:Pitch** can be overriden for `light_environment` and `env_sun`, but not `shadow_control`. The **Pitch** override also cannot be switched off and its rotation is measured counter-clockwise from the horizontal (so straight down is -90°) whereas the **\<angles> Pitch'**s rotation is clockwise (so straight down is +90°). The workaround for this is to make sure your **Pitch** override merely repeats the **\<angles>** value; for example, if your `shadow_control`, `light_environment` and `env_sun` **\<angles>** are "45 -60 0", set the **Pitch** override to "-45".
+These lighting settings - direction, color, brightness, etc are fairly specific to the actual image used for the 2D skybox. The [Sky List](https://developer.valvesoftware.com/wiki/Sky\_List) article suggests some settings for official game skyboxes. The [`worldspawn`](https://developer.valvesoftware.com/wiki/Worldspawn) entity defines which [skybox](https://developer.valvesoftware.com/wiki/Sky\_List) to use. Also note that fog will look wrong if [`env_fog_controller`](https://developer.valvesoftware.com/wiki/Env\_fog\_controller)'s settings don't correspond to the particular skybox in use.![](https://developer.valvesoftware.com/w/images/c/cc/Note.png) **Note:Pitch** can be overriden for `light_environment` and `env_sun`, but not `shadow_control`. The **Pitch** override also cannot be switched off and its rotation is measured counter-clockwise from the horizontal (so straight down is -90°) whereas the \*\*\<angles> Pitch'\*\*s rotation is clockwise (so straight down is +90°). The workaround for this is to make sure your **Pitch** override merely repeats the **\<angles>** value; for example, if your `shadow_control`, `light_environment` and `env_sun` **\<angles>** are "45 -60 0", set the **Pitch** override to "-45".
 
 ## Creating a Custom 2D Skybox Texture
 

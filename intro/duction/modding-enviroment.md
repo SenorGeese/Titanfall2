@@ -54,7 +54,7 @@ Titanfall 2\tools
 
 As a result, your Titanfall 2 modding folder should look like as in the following screenshot. The purpose of each folders will be explained in details.
 
-![](../../.gitbook/assets/moddingenv\_basicfolders.png)
+![](../../.gitbook/assets/moddingENV\_basicFolders.png)
 
 ### Folder - Backup
 

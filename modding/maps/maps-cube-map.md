@@ -45,7 +45,7 @@ Navigate to this location in your extracted folder
 
 This folder contains the texture for the cubemap. The file we are looking for are `.vtf` files. Once you did open them you can view the different faces of the cubemap by using the face parameters in [VTFedit](../../intro/duction/tools/#vtf-and-vmt).
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (14).png>)
 
 A cube map have 6 individual pictures as a cube have 6 faces. When each individual faces are put together they should look like this
 
@@ -62,11 +62,11 @@ You also need to rotate the faces as in the map. The color code give you the cor
 
 Once renaming and rotating the faces you need to import all of them in VTFedit. You do so by selecting multiple files at once.
 
-![Selecting the 6 faces of the cubemap](<../../.gitbook/assets/image (5).png>)
+![Selecting the 6 faces of the cubemap](<../../.gitbook/assets/image (19).png>)
 
 When the picture are loaded into VTFedit you will have some parameters to select. Use the parameters as it is showed in the examples bellow
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (2).png>)
 
 ![You are not looking for parameters outside of the red zone](../../.gitbook/assets/vtfeditcubemap.png)
 

@@ -4,7 +4,7 @@ description: $bumpmap is a material shader parameter available in all Source gam
 
 # $bumpmap
 
-&#x20;**`$bumpmap`** is a [material](../valve-material-type-vmt.md) [shader](../shader/) parameter available in all Source games. It specifies a [texture](../) that will provide three-dimensional lighting information for a material. The texture is a [bump map](./), but the process it is used for is called [normal mapping](http://en.wikipedia.org/wiki/Normal\_mapping). The two terms are often used interchangeably, however.
+**`$bumpmap`** is a [material](../valve-material-type-vmt.md) [shader](../shader/) parameter available in all Source games. It specifies a [texture](../) that will provide three-dimensional lighting information for a material. The texture is a [bump map](./), but the process it is used for is called [normal mapping](http://en.wikipedia.org/wiki/Normal\_mapping). The two terms are often used interchangeably, however.
 
 {% hint style="danger" %}
 `$bumpmap` will disable [`prop_static`](https://developer.valvesoftware.com/wiki/Prop\_static)'s per-vertex lighting in every Source game but [![\<Counter-Strike: Global Offensive>](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:\_Global\_Offensive). Not enough data is stored in the vertices for normal mapping, so the engine has no choice but to fall back.
@@ -17,7 +17,7 @@ description: $bumpmap is a material shader parameter available in all Source gam
 * Bumpmaps cannot be used on decal textures, except in [![\<Counter-Strike: Global Offensive>](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:\_Global\_Offensive).
 {% endhint %}
 
-![A material's albedo (left) compared to its bump map.](../../../.gitbook/assets/brickwall021a\_normalcompare.jpg)
+![A material's albedo (left) compared to its bump map.](../../../.gitbook/assets/Brickwall021a\_normalcompare.jpg)
 
 ### Basic syntax
 
@@ -30,7 +30,7 @@ LightmappedGeneric
 }
 ```
 
-![The above material in-game.](../../../.gitbook/assets/example\_of\_bump\_mapping.jpg)
+![The above material in-game.](../../../.gitbook/assets/Example\_of\_bump\_mapping.jpg)
 
 ### Additional parameters
 
@@ -44,7 +44,7 @@ Transforms the bump map texture. **To do:** Does this actually require DX9? Pres
 4. `translate` shifts the texture by the given numbers. '`.5`' will shift it half-way.
 
 {% hint style="info" %}
-**Note:**All values must be included!
+\*\*Note:\*\*All values must be included!
 {% endhint %}
 
 {% hint style="danger" %}
@@ -79,7 +79,7 @@ Stops the bump map affecting the lighting of the material's [albedo](../albedo.m
 
 If 0, use bumpmapping if the card says it can handle it. If 1, always force bumpmapping on.
 
-#### `$addbumpmaps` `<`[`boolean`](https://developer.valvesoftware.com/wiki/Boolean)`>`&#x20;
+#### `$addbumpmaps` `<`[`boolean`](https://developer.valvesoftware.com/wiki/Boolean)`>`
 
 (Only in Counter-Strike: Global Offensive)Enables the usage and blending of two bump maps together for [`LightmappedGeneric`](https://developer.valvesoftware.com/wiki/LightmappedGeneric).
 
@@ -87,7 +87,7 @@ If 0, use bumpmapping if the card says it can handle it. If 1, always force bump
 
 The second bump map to use, for either [`WorldVertexTransition`](https://developer.valvesoftware.com/wiki/WorldVertexTransition) or for `LightmappedGeneric` in [![\<Counter-Strike: Global Offensive>](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:\_Global\_Offensive) for bump map blending.
 
-#### `$bumpframe2` `<`[`integer`](https://developer.valvesoftware.com/wiki/Integer)`>`&#x20;
+#### `$bumpframe2` `<`[`integer`](https://developer.valvesoftware.com/wiki/Integer)`>`
 
 (DX9+)Same as `$bumpframe`, but for the second bump map.
 

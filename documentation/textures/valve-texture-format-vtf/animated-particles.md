@@ -78,9 +78,9 @@ frame smokeTex0002_341.tga 1
 
 The output from this .mks file can be seen below. The RGB and alpha channels are shown. Note that the individual frame sizes are all non-power-of-two and that they are different between the RGB and Alpha frames.
 
-![](../../../.gitbook/assets/vista\_smoke\_rgb.jpg)
+![](../../../.gitbook/assets/Vista\_smoke\_rgb.jpg)
 
-![](../../../.gitbook/assets/vista\_smoke\_alpha.jpg)
+![](../../../.gitbook/assets/Vista\_smoke\_alpha.jpg)
 
 ## Compiling the Sheet
 

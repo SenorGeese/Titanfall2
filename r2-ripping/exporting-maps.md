@@ -32,7 +32,6 @@ python /PATHT/TO/THE/SCRIPT/TitanfallMapExporter.py
 
 \*In these screenshots I have scaled down and removed the boxes encasing the levels.
 
-![Beacon 1/3 Map with Bounding Boxes Removed](../.gitbook/assets/beaconblender.png)
+![Beacon 1/3 Map with Bounding Boxes Removed](../.gitbook/assets/BeaconBlender.png)
 
-![Wargames Map with Bounding Boxes Removed](../.gitbook/assets/wargamesblender.png)
-
+![Wargames Map with Bounding Boxes Removed](../.gitbook/assets/WargamesBlender.png)

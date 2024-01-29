@@ -10,16 +10,16 @@ description: >-
 Textures often called **Bump Maps**, or **Normal Maps** are used to simulate three-dimensional details on a two-dimensional surface by manipulating its lighting.
 
 {% hint style="info" %}
-&#x20;**Note:** Static props using bump maps can not be lit per-vertex, except in [![\<Counter-Strike: Global Offensive>](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:\_Global\_Offensive).
+**Note:** Static props using bump maps can not be lit per-vertex, except in [![\<Counter-Strike: Global Offensive>](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:\_Global\_Offensive).
 {% endhint %}
 
 {% hint style="info" %}
-&#x20;**Note:** Bump maps cannot be used on decal textures, except in [![\<Counter-Strike: Global Offensive>](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:\_Global\_Offensive).
+**Note:** Bump maps cannot be used on decal textures, except in [![\<Counter-Strike: Global Offensive>](https://developer.valvesoftware.com/w/images/3/35/Csgo.png)](https://developer.valvesoftware.com/wiki/Counter-Strike:\_Global\_Offensive).
 {% endhint %}
 
 ## Format
 
-Each pixel in a bump map contains the (x, y, z) coordinates that define a  [normalized](https://developer.valvesoftware.com/wiki/Normal) [vector](https://developer.valvesoftware.com/wiki/Vector).
+Each pixel in a bump map contains the (x, y, z) coordinates that define a [normalized](https://developer.valvesoftware.com/wiki/Normal) [vector](https://developer.valvesoftware.com/wiki/Vector).
 
 Because of this each color channel in a bump map has meaning:
 
@@ -33,7 +33,7 @@ Horizontal facing (X axis).
 
 ### Green
 
-&#x20;Vertical facing (Y axis).
+Vertical facing (Y axis).
 
 * 0 = up
 * 128 = forward, or facing viewer
@@ -48,18 +48,18 @@ Height (Z axis).
 * 255 = facing 'out' of the texture towards the viewer.
 
 {% hint style="info" %}
-&#x20;**Note:** Valve's "flat" bump map textures use RGB values of \[120, 124, 248]
+**Note:** Valve's "flat" bump map textures use RGB values of \[120, 124, 248]
 {% endhint %}
 
 {% hint style="warning" %}
-&#x20;`dev/flat_normal` uses the above-mentioned values. However they are incorrect. An actually flat bump map should be \[128, 128, 255]
+`dev/flat_normal` uses the above-mentioned values. However they are incorrect. An actually flat bump map should be \[128, 128, 255]
 {% endhint %}
 
 The three channels represent a normal vector for every pixel which represents the direction that the pixel is facing in 3D spaces. This allows the engine to generate shadows and highlights on a two-dimensional surface, or give a 3D model more detail.
 
 A bump map is largely useless for really flat surfaces like smooth concrete or metal, but even smooth concrete sometimes has enough depth to it to make one worthwhile.
 
-![](../../../.gitbook/assets/normalmap.gif)
+![](../../../.gitbook/assets/Normalmap.gif)
 
 ## Creation
 
@@ -73,7 +73,7 @@ A bump map should be rendered in Tangent space and use vector dimensions X+ Y- Z
 
 Various programs can automate the creation of bump maps, either by image analysis or by using 3D geometry the user pro
 
-![Bump maps as created by various programs.](../../../.gitbook/assets/test\_bump.jpg)
+![Bump maps as created by various programs.](../../../.gitbook/assets/Test\_bump.jpg)
 
 ### 2D tools
 
@@ -116,7 +116,7 @@ When converting your texture:
 2. Check the "Normal map" box in the texture's flags list after the import is complete. It's about 1/5 of the way down the list.
 
 {% hint style="info" %}
-**Tip:**VTFEdit can automatically generate bump maps. See the bottom-right of the import screen.
+\*\*Tip:\*\*VTFEdit can automatically generate bump maps. See the bottom-right of the import screen.
 {% endhint %}
 
 ### **In Vtex**
@@ -131,4 +131,3 @@ See [`$bumpmap`](usdbumpmap.md).
 {% hint style="info" %}
 Source: [https://developer.valvesoftware.com/wiki/Bump\_map](https://developer.valvesoftware.com/wiki/Bump\_map)
 {% endhint %}
-
